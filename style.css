@@ -5,11 +5,12 @@
 }
 
 body{
-    margin:0px;
+    background-image: linear-gradient(to right top, #ff0e0e, #ff0056, #f20095, #b700d0, #114ef9);    margin:0px;
     padding:0px;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    height: 100vh; 
 }
 h3{
     padding:7%;
