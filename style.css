@@ -19,19 +19,42 @@ body{
 
 img{
     border-radius: 10px;
-    margin: 15%;
+    margin: 13% 0 3% 0 ;
     height: 200px;
     width: 200px;
 }
 
 h3{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-weight: 700;
     color: aliceblue;
 }
 
+button{
+    margin-top: 2%;
+    background-color: greenyellow;
+}
+button.a{
+    padding: 10px;
+}
+
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+    
+    .contains{
+        margin-top: 20%;
+        width: 80%;
+        align-items: center;
+    }
+    img{
+        height: 150px;
+        width: 150px;
+        margin-bottom: 5%;
+    }
+    h2{
+        padding: 10%;
+    }
+    button{
+        margin-top: 20px;
+        width: auto;
     }
   }
