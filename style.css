@@ -32,7 +32,6 @@ h3{
 
 button{
     margin-top: 2%;
-    background-color: greenyellow;
 }
 button.a{
     padding: 10px;
@@ -41,7 +40,7 @@ button.a{
 @media only screen and (max-width: 600px) {
     
     .contains{
-        margin-top: 20%;
+        margin: 40% auto 10% auto;
         width: 80%;
         align-items: center;
     }
@@ -50,11 +49,8 @@ button.a{
         width: 150px;
         margin-bottom: 5%;
     }
-    h2{
-        padding: 10%;
-    }
     button{
-        margin-top: 20px;
+        margin-top: 40px;
         width: auto;
     }
   }
